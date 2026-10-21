@@ -1,6 +1,6 @@
-# Xsolla Documentation RAG Assistant
+# Documentation RAG Assistant
 
-A small command-line retrieval-augmented generation (RAG) chatbot for answering questions from the Markdown files in `docs/`. It finds relevant document chunks with a local embedding model, retrieves them from Qdrant, then asks Claude to answer using that retrieved context.
+A small command-line retrieval-augmented generation (RAG) chatbot for answering questions from the Markdown files in `docs/`. It finds relevant document chunks with a local embedding model, retrieves them from Qdrant, then asks Claude to answer using that retrieved context. This is developed during my internship in Xsolla for learning concepts of AI Rag, which uses the Xsolla .md files. You can try it by inserting .md files in /docs and perform the steps below. 
 
 ## How it works
 
